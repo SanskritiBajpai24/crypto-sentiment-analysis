@@ -18,4 +18,7 @@ This project analyzes historical trading data from Hyperliquid against the Bitco
 ### Prerequisites
 Ensure you have Python installed along with the following libraries:
 ```bash
+
 pip install pandas numpy matplotlib seaborn scikit-learn
+## Data
+* `historical_data.csv`: (Not included in repo). Download from the assignment link and place in the root folder.
