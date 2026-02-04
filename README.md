@@ -7,6 +7,8 @@ This project analyzes historical trading data from Hyperliquid against the Bitco
 * `ex.ipynb`: The main analysis notebook containing data cleaning, EDA, segmentation analysis, and predictive modeling.
 * `fear_greed_index.csv`: Daily sentiment data.
 * `historical_data.csv`: Historical trade logs (not included in repo due to size, ensure it is in the root directory).
+## Data
+* `historical_data.csv`: (Not included in repo). Download from the assignment link and place in the root folder.
 
 ## Key Findings
 * **Extreme Greed** correlates with the highest win rates and average PnL.
@@ -20,5 +22,4 @@ Ensure you have Python installed along with the following libraries:
 ```bash
 
 pip install pandas numpy matplotlib seaborn scikit-learn
-## Data
-* `historical_data.csv`: (Not included in repo). Download from the assignment link and place in the root folder.
+
